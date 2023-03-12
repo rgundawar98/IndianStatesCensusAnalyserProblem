@@ -48,6 +48,7 @@
     <Compile Include="CensusAnalyzer.cs" />
     <Compile Include="CSVAdapterFactory.cs" />
     <Compile Include="DATA DAO\PopulationDataDAO.cs" />
+    <Compile Include="DATA DAO\StatesDataDAO.cs" />
     <Compile Include="DTO\CensusDTO.cs" />
     <Compile Include="IndianCensusAdapter.cs" />
     <Compile Include="Program.cs" />
@@ -57,10 +58,14 @@
     <None Include="App.config" />
     <None Include="CSV Data\FileWithoutDelemter.csv" />
     <None Include="CSV Data\IndianPopulationData.csv" />
+    <None Include="CSV Data\IndianStatesData.csv" />
+    <None Include="CSV Data\StateFileDelemiter.csv" />
+    <None Include="CSV Data\StateHeaderData.csv" />
     <None Include="CSV Data\WrongHeaderPopulationData.csv" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSV Data\IndianPopulationData.txt" />
+    <Content Include="CSV Data\IndianStatesData.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
